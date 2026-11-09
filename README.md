@@ -1,6 +1,6 @@
 # git-lab-A50216: Quản lý phiên bản sản phẩm với Git & GitHub
 
-**Phiên bản hiện tại**: `v1.0.1` (Hotfix)
+**Phiên bản hiện tại**: `v1.1.0` (Thêm hàm tính căn bậc hai `sqrt`)
 
 Dự án bài tập thực hành môn Quản lý phiên bản sản phẩm (Git & GitHub).
 
@@ -10,7 +10,7 @@ Dự án bài tập thực hành môn Quản lý phiên bản sản phẩm (Git 
 
 ## Cấu trúc thư mục
 - `app/`: Mã nguồn ứng dụng máy tính mini:
-  - `calc.py`: Các hàm tính toán cơ bản (`add`, `sub`, `mul`, `div`).
+  - `calc.py`: Các hàm tính toán cơ bản (`add`, `sub`, `mul`, `div`, `pow`, `sqrt`).
   - `utils.py`: Các hàm tiện ích hỗ trợ định dạng số.
 - `tests/`: Bộ kiểm thử tự động sử dụng thư viện `pytest`.
 - `BAOCAO.md`: Báo cáo chi tiết các bước thực hành, ảnh chụp git log và trả lời câu hỏi tình huống.
