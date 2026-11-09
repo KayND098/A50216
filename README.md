@@ -21,3 +21,4 @@ pip install pytest
 # Chạy toàn bộ unit test
 pytest tests/
 ```
+> **Cập nhật:** Đã sửa và hoàn thiện chú thích tài liệu theo yêu cầu của Trưởng nhóm.
