@@ -7,3 +7,7 @@ def add(a: float, b: float) -> float:
 def sub(a: float, b: float) -> float:
     """Tru hai so a va b."""
     return a - b
+
+def mul(a: float, b: float) -> float:
+    """Nhan hai so a va b."""
+    return a * b
