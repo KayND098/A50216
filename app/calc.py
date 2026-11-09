@@ -13,9 +13,9 @@ def mul(a: float, b: float) -> float:
     return a * b
 
 def div(a: float, b: float) -> float:
-    """Chia hai so a va b."""
+    """Chia hai so a va b. Xu ly an toan khi b == 0 tranh crash ung dung."""
     if b == 0:
-        raise ValueError("Loi: chia cho 0 (ZeroDivision)")
+        raise ZeroDivisionError("Loi: chia cho 0 (ZeroDivision)")
     return a / b
 
 def pow(a: float, b: float) -> float:
