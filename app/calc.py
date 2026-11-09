@@ -1,4 +1,5 @@
 """Module mini calculator: cac ham tinh toan co ban."""
+import math
 
 def add(a: float, b: float) -> float:
     """Cong hai so a va b."""
@@ -21,3 +22,9 @@ def div(a: float, b: float) -> float:
 def pow(a: float, b: float) -> float:
     """Luy thua a mu b."""
     return a ** b
+
+def sqrt(a: float) -> float:
+    """Tinh can bac hai cua a."""
+    if a < 0:
+        raise ValueError("Khong the tinh can so am")
+    return math.sqrt(a)
