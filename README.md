@@ -1,5 +1,7 @@
 # git-lab-A50216: Quản lý phiên bản sản phẩm với Git & GitHub
 
+**Phiên bản hiện tại**: `v1.0.0`
+
 Dự án bài tập thực hành môn Quản lý phiên bản sản phẩm (Git & GitHub).
 
 ## Thành viên nhóm
